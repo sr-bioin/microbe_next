@@ -1,4 +1,4 @@
-Bacterial whole genome sequencing
+<h1> Nextflow pipeline for bacterial whole genome sequence analysis </h1>h1>
 
 The raw sequencing data generated from the sequencing instrument is referred to as "reads." Before further analysis, it is necessary to preprocess and perform quality control on these data to remove low-quality reads and adapter sequences.
 
