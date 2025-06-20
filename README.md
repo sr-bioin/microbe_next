@@ -1,4 +1,4 @@
-<h1> Nextflow pipeline for bacterial whole genome sequence analysis </h1>
+<h2> Nextflow pipeline for bacterial whole genome sequence analysis </h2>
 
 <h3>Quality control fo the raw sequencing data generated from the sequencing instrument to remove low-quality reads and adapter sequences.</h3>
 
