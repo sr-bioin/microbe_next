@@ -1,6 +1,6 @@
-<h1> Nextflow pipeline for bacterial whole genome sequence analysis </h1>h1>
+<h1> Nextflow pipeline for bacterial whole genome sequence analysis </h1>
 
-The raw sequencing data generated from the sequencing instrument is referred to as "reads." Before further analysis, it is necessary to preprocess and perform quality control on these data to remove low-quality reads and adapter sequences.
+<h2>Quality control fo the raw sequencing data generated from the sequencing instrument to remove low-quality reads and adapter sequences.</h2>
 
     Trimmomatic: Used to remove adapter sequences, low-quality bases, and low-quality reads from sequencing reads. You can find more information and usage instructions on the Trimmomatic GitHub.
 
