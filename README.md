@@ -1,6 +1,6 @@
 <h2> Nextflow pipeline for bacterial whole genome sequence analysis </h2>
 
-<h3>Quality control fo the raw sequencing data generated from the sequencing instrument to remove low-quality reads and adapter sequences.</h3>
+<h4>Software included in the pipeline.</h4>
 
 1). FastQC is used to assess the quality distribution and other quality metrics of sequencing reads. It helps detect potential issues during the sequencing process, such as decreasing sequencing quality and adapter contamination. For more information, please visit the FastQC website.
 
@@ -16,6 +16,6 @@
 
 7).QUAST (QUality ASsessment Tool) evaluates genome/metagenome assemblies by computing various metrics and works both with and without reference genomes.For more information, please visit the Quast website.
 
-8). 
+8). Abricate is a tool for mass screening of contigs for antimicrobial resistance or virulence genes.
 
 
