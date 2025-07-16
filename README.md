@@ -9,5 +9,13 @@
 3). Trimmomatic: Used to remove adapter sequences, low-quality bases, and low-quality reads from sequencing reads. You can find more information and usage instructions on the Trimmomatic GitHub.
 
 4). Kraken 2 is the newest version of Kraken, a taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds. This classifier matches each k-mer within a query sequence to the lowest common ancestor (LCA) of all genomes containing the given k-mer. For more information, please visit the Kraken 2 website. 
+
 5). SPAdes is a versatile toolkit designed for assembly and analysis of sequencing data. For more information, please visit the Spades website.
-4). Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files. For more information, please visit the Prokka website.
+
+6). Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files. For more information, please visit the Prokka website.
+
+7).QUAST (QUality ASsessment Tool) evaluates genome/metagenome assemblies by computing various metrics and works both with and without reference genomes.For more information, please visit the Quast website.
+
+8). 
+
+
