@@ -10,7 +10,7 @@ b) <h4>MultiQC</h4> <br> is used create a single report with interactive plots f
 
 c) <h4>Trimmomatic</h4> is a commonly used tool to remove adapter sequences, low-quality bases, and low-quality reads from sequencing reads. For more information and usage instructions please visit the Trimmomatic website.
 
-<h4>SPAdes</h4>
+**SPAdes** <br>
 It was used to perform de novo genome assembly after quality control and trimming the adapters from the raw reads. SPAdes is a de Bruijn graph based assembler, designed and intended for small genomes and can take sequencing data from Illumina and IonTorrent platforms. For more information, please visit the Spades website.
 
 <h4>Prokka</h4> <br>
