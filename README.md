@@ -1,4 +1,4 @@
-Nextflow pipeline for bacterial whole genome sequence analysis </h2>
+<h2>Nextflow pipeline for bacterial whole genome sequence analysis </h2>
 
 <h4>Software used in the pipeline.</h4>
 
