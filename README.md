@@ -4,9 +4,9 @@ Nextflow pipeline for bacterial whole genome sequence analysis </h2>
 
 <h4>Tools used</h4>
 Quality Control<br>
-a) <h4></h4>FastQC</h4>is widely used and is robust, efficient, and versatile quality control software for a varied range of raw genetic data. It outputs a quality report which can be viewed to give an indication on how good the respective reads are. For more information, please visit the FastQC website.
+a) <h4></h4>FastQC</h4> <br> is widely used and is robust, efficient, and versatile quality control software for a varied range of raw genetic data. It outputs a quality report which can be viewed to give an indication on how good the respective reads are. For more information, please visit the FastQC website.
 
-b) <h4>MultiQC</h4> is used create a single report with interactive plots for multiple bioinformatics analyses across many samples. It reports can describe multiple analysis steps and large numbers of samples within a single plot, and multiple analysis tools making it ideal for routine fast quality control. For more information, please visit the MultiQC website.
+b) <h4>MultiQC</h4> <br> is used create a single report with interactive plots for multiple bioinformatics analyses across many samples. It reports can describe multiple analysis steps and large numbers of samples within a single plot, and multiple analysis tools making it ideal for routine fast quality control. For more information, please visit the MultiQC website.
 
 c) <h4>Trimmomatic</h4> is a commonly used tool to remove adapter sequences, low-quality bases, and low-quality reads from sequencing reads. For more information and usage instructions please visit the Trimmomatic website.
 
