@@ -3,8 +3,8 @@ Nextflow pipeline for bacterial whole genome sequence analysis </h2>
 <h4>Software included in the pipeline.</h4>
 
 <h4>Tools used</h4>
-Quality Control<br>
-a) **FastQC** is widely used and is robust, efficient, and versatile quality control software for a varied range of raw genetic data. It outputs a quality report which can be viewed to give an indication on how good the respective reads are. For more information, please visit the FastQC website.
+Quality Control <br>
+a) __FastQC__ is widely used and is robust, efficient, and versatile quality control software for a varied range of raw genetic data. It outputs a quality report which can be viewed to give an indication on how good the respective reads are. For more information, please visit the FastQC website.
 
 b) **MultiQC** is used create a single report with interactive plots for multiple bioinformatics analyses across many samples. It reports can describe multiple analysis steps and large numbers of samples within a single plot, and multiple analysis tools making it ideal for routine fast quality control. For more information, please visit the MultiQC website.
 
