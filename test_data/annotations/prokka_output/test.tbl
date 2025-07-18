@@ -1,0 +1,771 @@
+>Feature contig_1
+284	1516	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00001
+			product	hypothetical protein
+1655	2131	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00002
+			product	hypothetical protein
+2240	2662	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00003
+			product	hypothetical protein
+2704	3435	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00004
+			product	hypothetical protein
+3413	5602	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00005
+			product	hypothetical protein
+5933	5607	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00006
+			product	hypothetical protein
+9668	6282	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00007
+			product	hypothetical protein
+11095	9779	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00008
+			product	hypothetical protein
+11202	11366	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00009
+			product	hypothetical protein
+11356	14559	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00010
+			product	hypothetical protein
+16775	17932	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00011
+			product	hypothetical protein
+17950	20184	CDS
+			EC_number	3.4.21.-
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q9RYM8
+			locus_tag	PROKKA_00012
+			product	putative subtilase-type serine protease precursor
+21083	20220	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00013
+			product	hypothetical protein
+21331	21080	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00014
+			product	hypothetical protein
+21763	21422	CDS
+			EC_number	1.14.13.114
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P86491
+			locus_tag	PROKKA_00015
+			product	6-hydroxynicotinate 3-monooxygenase precursor
+23607	21811	CDS
+			gene	fruA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P23355
+			locus_tag	PROKKA_00016
+			product	PTS system fructose-specific EIIBC component
+24693	23746	CDS
+			EC_number	2.7.1.144
+			gene	lacC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P23391
+			locus_tag	PROKKA_00017
+			product	Tagatose-6-phosphate kinase
+26884	24695	CDS
+			EC_number	2.7.3.9
+			gene	ptsI
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P23533
+			locus_tag	PROKKA_00018
+			product	Phosphoenolpyruvate-protein phosphotransferase
+27174	26830	CDS
+			gene	fruB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P17127
+			locus_tag	PROKKA_00019
+			product	Multiphosphoryl transfer protein
+27434	28252	CDS
+			gene	glpR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0ACL0
+			locus_tag	PROKKA_00020
+			product	Glycerol-3-phosphate regulon repressor
+29079	28321	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00021
+			product	hypothetical protein
+29273	29076	CDS
+			gene	fliY
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0AEM9
+			locus_tag	PROKKA_00022
+			product	Cystine-binding periplasmic protein precursor
+29953	29237	CDS
+			gene	artI
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P30859
+			locus_tag	PROKKA_00023
+			product	Putative ABC transporter arginine-binding protein 2 precursor
+31159	29972	CDS
+			EC_number	4.2.1.113
+			gene	menC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O34514
+			locus_tag	PROKKA_00024
+			product	o-succinylbenzoate synthase
+31395	32147	CDS
+			EC_number	1.1.1.50
+			gene	hsdA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P80702
+			locus_tag	PROKKA_00025
+			product	3-alpha-hydroxysteroid dehydrogenase/carbonyl reductase
+32811	32182	CDS
+			gene	degU
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P13800
+			locus_tag	PROKKA_00026
+			product	Transcriptional regulatory protein DegU
+34315	32804	CDS
+			EC_number	2.7.13.3
+			gene	senX3
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:A0QR01
+			locus_tag	PROKKA_00027
+			product	Signal-transduction histidine kinase senX3
+34492	36519	CDS
+			EC_number	3.6.3.12
+			gene	kdpB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03960
+			locus_tag	PROKKA_00028
+			product	Potassium-transporting ATPase B chain
+36716	36844	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00029
+			product	hypothetical protein
+36912	37046	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00030
+			product	hypothetical protein
+37126	38832	CDS
+			EC_number	3.6.3.12
+			gene	kdpA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O32327
+			locus_tag	PROKKA_00031
+			product	Potassium-transporting ATPase A chain
+38963	39616	CDS
+			EC_number	3.6.3.12
+			gene	kdpC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P94606
+			locus_tag	PROKKA_00032
+			product	Potassium-transporting ATPase C chain
+39622	40719	CDS
+			EC_number	2.7.13.3
+			gene	kdpD
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P21865
+			locus_tag	PROKKA_00033
+			product	Sensor protein KdpD
+40931	42481	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00034
+			product	hypothetical protein
+43990	42635	CDS
+			EC_number	2.7.13.3
+			gene	mprB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q7U0X3
+			locus_tag	PROKKA_00035
+			product	Signal transduction histidine-protein kinase/phosphatase MprB
+44646	43987	CDS
+			gene	arlR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0C000
+			locus_tag	PROKKA_00036
+			product	Response regulator ArlR
+44846	45571	CDS
+			EC_number	1.16.-.-
+			gene	dps2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q9RZN1
+			locus_tag	PROKKA_00037
+			product	DNA protection during starvation protein 2
+46848	45754	CDS
+			EC_number	2.7.7.65
+			gene	ydaM_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P77302
+			locus_tag	PROKKA_00038
+			product	putative diguanylate cyclase YdaM
+47089	48117	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00039
+			product	hypothetical protein
+48440	48832	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00040
+			product	hypothetical protein
+49210	48872	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00041
+			product	hypothetical protein
+49380	50168	CDS
+			EC_number	3.8.1.5
+			gene	dhaAF
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q9ZER0
+			locus_tag	PROKKA_00042
+			product	Haloalkane dehalogenase
+51493	50252	CDS
+			EC_number	2.7.7.72
+			gene	cca
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_01261
+			locus_tag	PROKKA_00043
+			product	Multifunctional CCA protein
+52326	51469	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00044
+			product	hypothetical protein
+52955	52323	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00045
+			product	hypothetical protein
+54017	53148	CDS
+			EC_number	1.4.3.22
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q59118
+			locus_tag	PROKKA_00046
+			product	Histamine oxidase
+54315	54043	CDS
+			EC_number	1.4.3.21
+			gene	maoII
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q07123
+			locus_tag	PROKKA_00047
+			product	Copper methylamine oxidase precursor
+>Feature contig_2
+1159	467	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00048
+			product	hypothetical protein
+1190	2299	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00049
+			product	hypothetical protein
+2430	3287	CDS
+			gene	rsbRA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P42409
+			locus_tag	PROKKA_00050
+			product	RsbT co-antagonist protein RsbRA
+3293	3718	CDS
+			gene	rsbS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P42410
+			locus_tag	PROKKA_00051
+			product	RsbT antagonist protein RsbS
+3699	4112	CDS
+			EC_number	2.7.11.1
+			gene	rsbT_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P42411
+			locus_tag	PROKKA_00052
+			product	Serine/threonine-protein kinase RsbT
+4206	5261	CDS
+			EC_number	2.7.11.1
+			gene	rsbT_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P42411
+			locus_tag	PROKKA_00053
+			product	Serine/threonine-protein kinase RsbT
+5258	6991	CDS
+			EC_number	2.7.13.3
+			gene	rpfC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0C0F6
+			locus_tag	PROKKA_00054
+			product	Sensory/regulatory protein RpfC
+6969	8219	CDS
+			EC_number	2.7.13.3
+			gene	cph1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q55168
+			locus_tag	PROKKA_00055
+			product	Phytochrome-like protein cph1
+9268	8357	CDS
+			gene	spo0C_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q72H91
+			locus_tag	PROKKA_00056
+			product	Chromosome-partitioning protein Spo0J
+10230	9265	CDS
+			EC_number	3.6.-.-
+			gene	soj
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P37522
+			locus_tag	PROKKA_00057
+			product	Sporulation initiation inhibitor protein Soj
+10457	10191	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00058
+			product	hypothetical protein
+10867	10616	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00059
+			product	hypothetical protein
+11074	13575	CDS
+			EC_number	1.14.13.-
+			gene	ethA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P96223
+			locus_tag	PROKKA_00060
+			product	FAD-containing monooxygenase EthA
+14256	13597	CDS
+			EC_number	2.7.7.65
+			gene	ydaM_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P77302
+			locus_tag	PROKKA_00061
+			product	putative diguanylate cyclase YdaM
+15372	14416	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00062
+			product	hypothetical protein
+16088	15669	CDS
+			EC_number	1.1.1.100
+			gene	fabG
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q9KQH7
+			locus_tag	PROKKA_00063
+			product	3-oxoacyl-[acyl-carrier-protein] reductase FabG
+16466	16131	CDS
+			EC_number	1.1.1.14
+			gene	polS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q59787
+			locus_tag	PROKKA_00064
+			product	Sorbitol dehydrogenase
+16785	18860	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00065
+			product	hypothetical protein
+19013	19318	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00066
+			product	hypothetical protein
+19366	21735	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00067
+			product	hypothetical protein
+21736	22173	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00068
+			product	hypothetical protein
+22184	24994	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00069
+			product	hypothetical protein
+26804	25023	CDS
+			gene	sgrR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P33595
+			locus_tag	PROKKA_00070
+			product	HTH-type transcriptional regulator SgrR
+26814	28070	CDS
+			gene	mdtH
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P69367
+			locus_tag	PROKKA_00071
+			product	Multidrug resistance protein MdtH
+28358	28143	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00072
+			product	hypothetical protein
+28529	30079	CDS
+			EC_number	2.7.7.65
+			gene	dosC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0AA89
+			locus_tag	PROKKA_00073
+			product	Diguanylate cyclase DosC
+30483	32249	CDS
+			EC_number	3.1.3.1
+			gene	phoB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P19405
+			locus_tag	PROKKA_00074
+			product	Alkaline phosphatase 3 precursor
+32669	33127	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00075
+			product	hypothetical protein
+33124	33771	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O53899
+			locus_tag	PROKKA_00076
+			product	putative ABC transporter ATP-binding protein/MT1014
+33768	34976	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00077
+			product	hypothetical protein
+35330	37330	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00078
+			product	hypothetical protein
+38022	37621	CDS
+			gene	dhaM
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P37349
+			locus_tag	PROKKA_00079
+			product	PTS-dependent dihydroxyacetone kinase, phosphotransferase subunit DhaM
+38615	38019	CDS
+			EC_number	2.7.-.-
+			gene	dhaL
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q9CIV7
+			locus_tag	PROKKA_00080
+			product	PTS-dependent dihydroxyacetone kinase, ADP-binding subunit DhaL
+39610	38612	CDS
+			EC_number	2.7.-.-
+			gene	dhaK
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P76015
+			locus_tag	PROKKA_00081
+			product	PTS-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit DhaK
+40070	40600	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00082
+			product	hypothetical protein
+>Feature contig_3
+347	5467	CDS
+			EC_number	3.6.4.13
+			gene	dbpA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_00965
+			locus_tag	PROKKA_00083
+			product	ATP-dependent RNA helicase DbpA
+5470	8295	CDS
+			EC_number	3.6.4.-
+			gene	rapA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P60240
+			locus_tag	PROKKA_00084
+			product	RNA polymerase-associated protein RapA
+8292	10121	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00085
+			product	hypothetical protein
+10251	11843	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00086
+			product	hypothetical protein
+11806	12291	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00087
+			product	hypothetical protein
+12299	12817	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00088
+			product	hypothetical protein
+12836	13321	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00089
+			product	hypothetical protein
+13951	13685	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00090
+			product	hypothetical protein
+14182	14739	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00091
+			product	hypothetical protein
+14736	17645	CDS
+			EC_number	3.1.21.-
+			gene	mcrB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P15005
+			locus_tag	PROKKA_00092
+			product	5-methylcytosine-specific restriction enzyme B
+17645	18973	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00093
+			product	hypothetical protein
+19400	19122	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00094
+			product	hypothetical protein
+20518	19418	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00095
+			product	hypothetical protein
+>Feature contig_4
+1115	162	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00096
+			product	hypothetical protein
+2667	1399	CDS
+			gene	nhaP
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:G3XD29
+			locus_tag	PROKKA_00097
+			product	Na(+)/H(+) antiporter NhaP
+3285	2677	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00098
+			product	hypothetical protein
+3416	3736	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00099
+			product	hypothetical protein
+4772	3963	CDS
+			gene	yusV
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O32188
+			locus_tag	PROKKA_00100
+			product	putative siderophore transport system ATP-binding protein YusV
+5800	4769	CDS
+			gene	yfhA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O31569
+			locus_tag	PROKKA_00101
+			product	putative siderophore transport system permease protein YfhA
+6771	5797	CDS
+			gene	yfiZ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O31568
+			locus_tag	PROKKA_00102
+			product	putative siderophore transport system permease protein YfiZ precursor
+7691	6768	CDS
+			EC_number	3.6.3.-
+			gene	irtA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P63391
+			locus_tag	PROKKA_00103
+			product	Iron import ATP-binding/permease protein IrtA
+8662	7688	CDS
+			gene	yfiY
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O31567
+			locus_tag	PROKKA_00104
+			product	putative siderophore-binding lipoprotein YfiY precursor
+9475	9005	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00105
+			product	hypothetical protein
+11369	10056	CDS
+			gene	tlyC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O05961
+			locus_tag	PROKKA_00106
+			product	Hemolysin C
+12667	11366	CDS
+			gene	corC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0AE78
+			locus_tag	PROKKA_00107
+			product	Magnesium and cobalt efflux protein CorC
+13890	13111	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00108
+			product	hypothetical protein
+>Feature contig_5
+51	224	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00109
+			product	hypothetical protein
+678	1541	CDS
+			gene	btuF
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P37028
+			locus_tag	PROKKA_00110
+			product	Vitamin B12-binding protein precursor
+1550	2161	CDS
+			EC_number	2.5.1.17
+			gene	btuR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P31570
+			locus_tag	PROKKA_00111
+			product	Cob(I)yrinic acid a,c-diamide adenosyltransferase
+2151	3476	CDS
+			gene	cobB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P21632
+			locus_tag	PROKKA_00112
+			product	Cobyrinic acid A,C-diamide synthase
+3473	4369	CDS
+			gene	cbiB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_00024
+			locus_tag	PROKKA_00113
+			product	Cobalamin biosynthesis protein CbiB
+4362	5369	CDS
+			EC_number	2.6.1.9
+			gene	hisC2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q3K8U2
+			locus_tag	PROKKA_00114
+			product	Histidinol-phosphate aminotransferase 2
+5362	6801	CDS
+			gene	cobQ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P29932
+			locus_tag	PROKKA_00115
+			product	Cobyric acid synthase
+7470	7090	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00116
+			product	hypothetical protein
+8093	8968	CDS
+			gene	hmuT
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q56991
+			locus_tag	PROKKA_00117
+			product	Hemin-binding periplasmic protein HmuT precursor
+9031	10029	CDS
+			gene	hmuU
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q56992
+			locus_tag	PROKKA_00118
+			product	Hemin transport system permease protein HmuU
+10026	10811	CDS
+			EC_number	3.6.3.-
+			gene	hmuV
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q70YG7
+			locus_tag	PROKKA_00119
+			product	Hemin import ATP-binding protein HmuV
+10819	11559	CDS
+			EC_number	1.16.1.9
+			gene	yqjH
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q46871
+			locus_tag	PROKKA_00120
+			product	NADPH-dependent ferric-chelate reductase
+>Feature contig_6
+931	332	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00121
+			product	hypothetical protein
+3472	1112	CDS
+			EC_number	3.1.4.46
+			gene	glpQ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P09394
+			locus_tag	PROKKA_00122
+			product	Glycerophosphoryl diester phosphodiesterase precursor
+3743	3480	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00123
+			product	hypothetical protein
+4731	3736	CDS
+			EC_number	1.17.4.1
+			gene	nrdF
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P50621
+			locus_tag	PROKKA_00124
+			product	Ribonucleoside-diphosphate reductase subunit beta
+6875	4788	CDS
+			EC_number	1.17.4.1
+			gene	nrdE
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A5W8
+			locus_tag	PROKKA_00125
+			product	Ribonucleoside-diphosphate reductase subunit alpha
+7285	6860	CDS
+			gene	nrdI
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_00128
+			locus_tag	PROKKA_00126
+			product	Protein NrdI
+7383	7288	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00127
+			product	hypothetical protein
+7924	7442	CDS
+			EC_number	3.1.2.-
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P44886
+			locus_tag	PROKKA_00128
+			product	putative acyl-CoA thioester hydrolase
+9311	8358	CDS
+			gene	xerD
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A8P8
+			locus_tag	PROKKA_00129
+			product	Tyrosine recombinase XerD
+>Feature contig_7
+1014	619	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00130
+			product	hypothetical protein
+1057	1293	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00131
+			product	hypothetical protein
+1290	2165	CDS
+			gene	spo0C_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q72H91
+			locus_tag	PROKKA_00132
+			product	Chromosome-partitioning protein Spo0J
+4512	3019	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00133
+			product	hypothetical protein
+5977	4505	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00134
+			product	hypothetical protein
+>Feature contig_8
+1648	98	CDS
+			gene	alsT
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q45068
+			locus_tag	PROKKA_00135
+			product	Amino-acid carrier protein AlsT
+>Feature contig_9
+365	709	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00136
+			product	hypothetical protein
+670	1371	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00137
+			product	hypothetical protein
+>Feature contig_10
+1131	418	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00138
+			product	hypothetical protein
+>Feature contig_11
+672	190	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PROKKA_00139
+			product	hypothetical protein
+>Feature contig_12
+>Feature contig_13
+>Feature contig_14
+>Feature contig_15
+>Feature contig_16
+>Feature contig_17
+>Feature contig_18
+>Feature contig_19
+>Feature contig_20
+>Feature contig_21
+>Feature contig_22
+>Feature contig_23
+>Feature contig_24
+>Feature contig_25
+>Feature contig_26
+>Feature contig_27
+>Feature contig_28
+>Feature contig_29
