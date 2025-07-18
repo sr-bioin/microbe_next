@@ -2,20 +2,24 @@
 
 <h4>Software included in the pipeline.</h4>
 
-1). FastQC is used to assess the quality distribution and other quality metrics of sequencing reads. It helps detect potential issues during the sequencing process, such as decreasing sequencing quality and adapter contamination. For more information, please visit the FastQC website.
+<h4>Tools used</h4>
+Quality Control
+a) <h4>FastQC</h4> is widely used and is robust, efficient, and versatile quality control software for a varied range of raw genetic data. It outputs a quality report which can be viewed to give an indication on how good the respective reads are. For more information, please visit the FastQC website.
 
-2). MultiQC is a tool to create a single report with interactive plots for multiple bioinformatics analyses across many samples. MultiQC reports can describe multiple analysis steps and large numbers of samples within a single plot, and multiple analysis tools making it ideal for routine fast quality control.For more information, please visit the MultiQC website.
+b) <h4>MultiQC</h4> is used create a single report with interactive plots for multiple bioinformatics analyses across many samples. It reports can describe multiple analysis steps and large numbers of samples within a single plot, and multiple analysis tools making it ideal for routine fast quality control. For more information, please visit the MultiQC website.
 
-3). Trimmomatic: Used to remove adapter sequences, low-quality bases, and low-quality reads from sequencing reads. You can find more information and usage instructions on the Trimmomatic GitHub.
+c) <h4>Trimmomatic</h4> is a commonly used tool to remove adapter sequences, low-quality bases, and low-quality reads from sequencing reads. For more information and usage instructions please visit the Trimmomatic website.
 
-4). Kraken 2 is the newest version of Kraken, a taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds. This classifier matches each k-mer within a query sequence to the lowest common ancestor (LCA) of all genomes containing the given k-mer. For more information, please visit the Kraken 2 website. 
+<h4>SPAdes</h4>
+It was used to perform de novo genome assembly after quality control and trimming the adapters from the raw reads. SPAdes is a de Bruijn graph based assembler, designed and intended for small genomes and can take sequencing data from Illumina and IonTorrent platforms. For more information, please visit the Spades website.
 
-5). SPAdes is a versatile toolkit designed for assembly and analysis of sequencing data. For more information, please visit the Spades website.
+<h4>Prokka</h4>
+It is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files. It identifies features of interest in a set of genomic DNA sequences, and labelling them with useful information. For more information, please visit the Prokka website.
 
-6). Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files. For more information, please visit the Prokka website.
+<h4>QUAST</h4>
+It is a quality assessment tool for evaluating and comparing genome assemblies by computing various metrics and works both with and without reference genomes. It produces many reports, summary tables and plots to help scientists in their research and in their publications. For more information, please visit the Quast website.
 
-7).QUAST (QUality ASsessment Tool) evaluates genome/metagenome assemblies by computing various metrics and works both with and without reference genomes.For more information, please visit the Quast website.
-
-8). Abricate is a tool for mass screening of contigs for antimicrobial resistance or virulence genes.
+<h4>Abricate</h4>
+It is a tool for mass screening of contigs for antimicrobial resistance or virulence genes. It comes bundled with multiple databases: NCBI, CARD, ARG-ANNOT, Resfinder, MEGARES, EcOH, PlasmidFinder, Ecoli_VF and VFDB. For more information, please visit https://github.com/tseemann/abricate.
 
 
