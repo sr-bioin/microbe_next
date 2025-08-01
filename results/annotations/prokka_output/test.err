@@ -1,0 +1,1041 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:139 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 139 present
+DISC_COUNT_NUCLEOTIDES:29 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:139 features have inconsistent gene locations.
+SHORT_CONTIG:12 contigs are shorter than 200 nt.
+SUSPECT_PRODUCT_NAMES:1 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+NO_ANNOTATION:18 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:29 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:3 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:29 bioseqs are missing GenomeAssembly structured comments
+SHORT_SEQUENCES_200:12 sequences are shorter than 200 bp.
+MOLTYPE_NOT_MRNA:29 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:29 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:29 sequences do not include structured comments.
+MISSING_PROJECT:168 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::139 proteins have invalid IDs.
+prokka_output/test:contig_1_1 (length 410)
+prokka_output/test:contig_1_2 (length 158)
+prokka_output/test:contig_1_3 (length 140)
+prokka_output/test:contig_1_4 (length 243)
+prokka_output/test:contig_1_5 (length 729)
+prokka_output/test:contig_1_6 (length 108)
+prokka_output/test:contig_1_7 (length 1128)
+prokka_output/test:contig_1_8 (length 438)
+prokka_output/test:contig_1_9 (length 54)
+prokka_output/test:contig_1_10 (length 1067)
+prokka_output/test:contig_1_11 (length 385)
+prokka_output/test:contig_1_12 (length 744)
+prokka_output/test:contig_1_13 (length 287)
+prokka_output/test:contig_1_14 (length 83)
+prokka_output/test:contig_1_15 (length 113)
+prokka_output/test:contig_1_16 (length 598)
+prokka_output/test:contig_1_17 (length 315)
+prokka_output/test:contig_1_18 (length 729)
+prokka_output/test:contig_1_19 (length 114)
+prokka_output/test:contig_1_20 (length 272)
+prokka_output/test:contig_1_21 (length 252)
+prokka_output/test:contig_1_22 (length 65)
+prokka_output/test:contig_1_23 (length 238)
+prokka_output/test:contig_1_24 (length 395)
+prokka_output/test:contig_1_25 (length 250)
+prokka_output/test:contig_1_26 (length 209)
+prokka_output/test:contig_1_27 (length 503)
+prokka_output/test:contig_1_28 (length 675)
+prokka_output/test:contig_1_29 (length 42)
+prokka_output/test:contig_1_30 (length 44)
+prokka_output/test:contig_1_31 (length 568)
+prokka_output/test:contig_1_32 (length 217)
+prokka_output/test:contig_1_33 (length 365)
+prokka_output/test:contig_1_34 (length 516)
+prokka_output/test:contig_1_35 (length 451)
+prokka_output/test:contig_1_36 (length 219)
+prokka_output/test:contig_1_37 (length 241)
+prokka_output/test:contig_1_38 (length 364)
+prokka_output/test:contig_1_39 (length 342)
+prokka_output/test:contig_1_40 (length 130)
+prokka_output/test:contig_1_41 (length 112)
+prokka_output/test:contig_1_42 (length 262)
+prokka_output/test:contig_1_43 (length 413)
+prokka_output/test:contig_1_44 (length 285)
+prokka_output/test:contig_1_45 (length 210)
+prokka_output/test:contig_1_46 (length 289)
+prokka_output/test:contig_1_47 (length 90)
+prokka_output/test:contig_2_1 (length 230)
+prokka_output/test:contig_2_2 (length 369)
+prokka_output/test:contig_2_3 (length 285)
+prokka_output/test:contig_2_4 (length 141)
+prokka_output/test:contig_2_5 (length 137)
+prokka_output/test:contig_2_6 (length 351)
+prokka_output/test:contig_2_7 (length 577)
+prokka_output/test:contig_2_8 (length 416)
+prokka_output/test:contig_2_9 (length 303)
+prokka_output/test:contig_2_10 (length 321)
+prokka_output/test:contig_2_11 (length 88)
+prokka_output/test:contig_2_12 (length 83)
+prokka_output/test:contig_2_13 (length 833)
+prokka_output/test:contig_2_14 (length 219)
+prokka_output/test:contig_2_15 (length 318)
+prokka_output/test:contig_2_16 (length 139)
+prokka_output/test:contig_2_17 (length 111)
+prokka_output/test:contig_2_18 (length 691)
+prokka_output/test:contig_2_19 (length 101)
+prokka_output/test:contig_2_20 (length 789)
+prokka_output/test:contig_2_21 (length 145)
+prokka_output/test:contig_2_22 (length 936)
+prokka_output/test:contig_2_23 (length 593)
+prokka_output/test:contig_2_24 (length 418)
+prokka_output/test:contig_2_25 (length 71)
+prokka_output/test:contig_2_26 (length 516)
+prokka_output/test:contig_2_27 (length 588)
+prokka_output/test:contig_2_28 (length 152)
+prokka_output/test:contig_2_29 (length 215)
+prokka_output/test:contig_2_30 (length 402)
+prokka_output/test:contig_2_31 (length 666)
+prokka_output/test:contig_2_32 (length 133)
+prokka_output/test:contig_2_33 (length 198)
+prokka_output/test:contig_2_34 (length 332)
+prokka_output/test:contig_2_35 (length 176)
+prokka_output/test:contig_3_1 (length 1706)
+prokka_output/test:contig_3_2 (length 941)
+prokka_output/test:contig_3_3 (length 609)
+prokka_output/test:contig_3_4 (length 530)
+prokka_output/test:contig_3_5 (length 161)
+prokka_output/test:contig_3_6 (length 172)
+prokka_output/test:contig_3_7 (length 161)
+prokka_output/test:contig_3_8 (length 88)
+prokka_output/test:contig_3_9 (length 185)
+prokka_output/test:contig_3_10 (length 969)
+prokka_output/test:contig_3_11 (length 442)
+prokka_output/test:contig_3_12 (length 92)
+prokka_output/test:contig_3_13 (length 366)
+prokka_output/test:contig_4_1 (length 317)
+prokka_output/test:contig_4_2 (length 422)
+prokka_output/test:contig_4_3 (length 202)
+prokka_output/test:contig_4_4 (length 106)
+prokka_output/test:contig_4_5 (length 269)
+prokka_output/test:contig_4_6 (length 343)
+prokka_output/test:contig_4_7 (length 324)
+prokka_output/test:contig_4_8 (length 307)
+prokka_output/test:contig_4_9 (length 324)
+prokka_output/test:contig_4_10 (length 156)
+prokka_output/test:contig_4_11 (length 437)
+prokka_output/test:contig_4_12 (length 433)
+prokka_output/test:contig_4_13 (length 259)
+prokka_output/test:contig_5_1 (length 57)
+prokka_output/test:contig_5_2 (length 287)
+prokka_output/test:contig_5_3 (length 203)
+prokka_output/test:contig_5_4 (length 441)
+prokka_output/test:contig_5_5 (length 298)
+prokka_output/test:contig_5_6 (length 335)
+prokka_output/test:contig_5_7 (length 479)
+prokka_output/test:contig_5_8 (length 126)
+prokka_output/test:contig_5_9 (length 291)
+prokka_output/test:contig_5_10 (length 332)
+prokka_output/test:contig_5_11 (length 261)
+prokka_output/test:contig_5_12 (length 246)
+prokka_output/test:contig_6_1 (length 199)
+prokka_output/test:contig_6_2 (length 786)
+prokka_output/test:contig_6_3 (length 87)
+prokka_output/test:contig_6_4 (length 331)
+prokka_output/test:contig_6_5 (length 695)
+prokka_output/test:contig_6_6 (length 141)
+prokka_output/test:contig_6_7 (length 31)
+prokka_output/test:contig_6_8 (length 160)
+prokka_output/test:contig_6_9 (length 317)
+prokka_output/test:contig_7_1 (length 131)
+prokka_output/test:contig_7_2 (length 78)
+prokka_output/test:contig_7_3 (length 291)
+prokka_output/test:contig_7_4 (length 497)
+prokka_output/test:contig_7_5 (length 490)
+prokka_output/test:contig_8_1 (length 516)
+prokka_output/test:contig_9_1 (length 114)
+prokka_output/test:contig_9_2 (length 233)
+prokka_output/test:contig_10_1 (length 237)
+prokka_output/test:contig_11_1 (length 160)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::29 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::29 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 139 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::29 nucleotide Bioseqs are present
+prokka_output/test:contig_1 (length 54854)
+prokka_output/test:contig_2 (length 41173)
+prokka_output/test:contig_3 (length 20641)
+prokka_output/test:contig_4 (length 14452)
+prokka_output/test:contig_5 (length 12264)
+prokka_output/test:contig_6 (length 9576)
+prokka_output/test:contig_7 (length 6345)
+prokka_output/test:contig_8 (length 1767)
+prokka_output/test:contig_9 (length 1457)
+prokka_output/test:contig_10 (length 1380)
+prokka_output/test:contig_11 (length 718)
+prokka_output/test:contig_12 (length 685)
+prokka_output/test:contig_13 (length 608)
+prokka_output/test:contig_14 (length 572)
+prokka_output/test:contig_15 (length 377)
+prokka_output/test:contig_16 (length 260)
+prokka_output/test:contig_17 (length 246)
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::139 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:284-1516	PROKKA_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:1655-2131	PROKKA_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:2240-2662	PROKKA_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:2704-3435	PROKKA_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:3413-5602	PROKKA_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c5933-5607	PROKKA_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c9668-6282	PROKKA_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c11095-9779	PROKKA_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:11202-11366	PROKKA_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:11356-14559	PROKKA_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:16775-17932	PROKKA_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative subtilase-type serine protease precursor	contig_1:17950-20184	PROKKA_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c21083-20220	PROKKA_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c21331-21080	PROKKA_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	6-hydroxynicotinate 3-monooxygenase precursor	contig_1:c21763-21422	PROKKA_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	PTS system fructose-specific EIIBC component	contig_1:c23607-21811	PROKKA_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Tagatose-6-phosphate kinase	contig_1:c24693-23746	PROKKA_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Phosphoenolpyruvate-protein phosphotransferase	contig_1:c26884-24695	PROKKA_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Multiphosphoryl transfer protein	contig_1:c27174-26830	PROKKA_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Glycerol-3-phosphate regulon repressor	contig_1:27434-28252	PROKKA_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c29079-28321	PROKKA_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Cystine-binding periplasmic protein precursor	contig_1:c29273-29076	PROKKA_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Putative ABC transporter arginine-binding protein 2 precursor	contig_1:c29953-29237	PROKKA_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	o-succinylbenzoate synthase	contig_1:c31159-29972	PROKKA_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	3-alpha-hydroxysteroid dehydrogenase/carbonyl reductase	contig_1:31395-32147	PROKKA_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Transcriptional regulatory protein DegU	contig_1:c32811-32182	PROKKA_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Signal-transduction histidine kinase senX3	contig_1:c34315-32804	PROKKA_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Potassium-transporting ATPase B chain	contig_1:34492-36519	PROKKA_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:36716-36844	PROKKA_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:36912-37046	PROKKA_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Potassium-transporting ATPase A chain	contig_1:37126-38832	PROKKA_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Potassium-transporting ATPase C chain	contig_1:38963-39616	PROKKA_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Sensor protein KdpD	contig_1:39622-40719	PROKKA_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:40931-42481	PROKKA_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Signal transduction histidine-protein kinase/phosphatase MprB	contig_1:c43990-42635	PROKKA_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Response regulator ArlR	contig_1:c44646-43987	PROKKA_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	DNA protection during starvation protein 2	contig_1:44846-45571	PROKKA_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative diguanylate cyclase YdaM	contig_1:c46848-45754	PROKKA_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:47089-48117	PROKKA_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:48440-48832	PROKKA_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c49210-48872	PROKKA_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Haloalkane dehalogenase	contig_1:49380-50168	PROKKA_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Multifunctional CCA protein	contig_1:c51493-50252	PROKKA_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c52326-51469	PROKKA_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_1:c52955-52323	PROKKA_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Histamine oxidase	contig_1:c54017-53148	PROKKA_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Copper methylamine oxidase precursor	contig_1:c54315-54043	PROKKA_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:c1159-467	PROKKA_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:1190-2299	PROKKA_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	RsbT co-antagonist protein RsbRA	contig_2:2430-3287	PROKKA_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	RsbT antagonist protein RsbS	contig_2:3293-3718	PROKKA_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Serine/threonine-protein kinase RsbT	contig_2:3699-4112	PROKKA_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Serine/threonine-protein kinase RsbT	contig_2:4206-5261	PROKKA_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Sensory/regulatory protein RpfC	contig_2:5258-6991	PROKKA_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Phytochrome-like protein cph1	contig_2:6969-8219	PROKKA_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Chromosome-partitioning protein Spo0J	contig_2:c9268-8357	PROKKA_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Sporulation initiation inhibitor protein Soj	contig_2:c10230-9265	PROKKA_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:c10457-10191	PROKKA_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:c10867-10616	PROKKA_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	FAD-containing monooxygenase EthA	contig_2:11074-13575	PROKKA_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative diguanylate cyclase YdaM	contig_2:c14256-13597	PROKKA_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:c15372-14416	PROKKA_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	3-oxoacyl-[acyl-carrier-protein] reductase FabG	contig_2:c16088-15669	PROKKA_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Sorbitol dehydrogenase	contig_2:c16466-16131	PROKKA_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:16785-18860	PROKKA_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:19013-19318	PROKKA_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:19366-21735	PROKKA_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:21736-22173	PROKKA_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:22184-24994	PROKKA_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	HTH-type transcriptional regulator SgrR	contig_2:c26804-25023	PROKKA_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Multidrug resistance protein MdtH	contig_2:26814-28070	PROKKA_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:c28358-28143	PROKKA_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Diguanylate cyclase DosC	contig_2:28529-30079	PROKKA_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Alkaline phosphatase 3 precursor	contig_2:30483-32249	PROKKA_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:32669-33127	PROKKA_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative ABC transporter ATP-binding protein/MT1014	contig_2:33124-33771	PROKKA_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:33768-34976	PROKKA_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:35330-37330	PROKKA_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	PTS-dependent dihydroxyacetone kinase, phosphotransferase subunit DhaM	contig_2:c38022-37621	PROKKA_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	PTS-dependent dihydroxyacetone kinase, ADP-binding subunit DhaL	contig_2:c38615-38019	PROKKA_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	PTS-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit DhaK	contig_2:c39610-38612	PROKKA_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_2:40070-40600	PROKKA_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	ATP-dependent RNA helicase DbpA	contig_3:347-5467	PROKKA_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	RNA polymerase-associated protein RapA	contig_3:5470-8295	PROKKA_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:8292-10121	PROKKA_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:10251-11843	PROKKA_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:11806-12291	PROKKA_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:12299-12817	PROKKA_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:12836-13321	PROKKA_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:c13951-13685	PROKKA_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:14182-14739	PROKKA_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	5-methylcytosine-specific restriction enzyme B	contig_3:14736-17645	PROKKA_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:17645-18973	PROKKA_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:c19400-19122	PROKKA_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_3:c20518-19418	PROKKA_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_4:c1115-162	PROKKA_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Na(+)/H(+) antiporter NhaP	contig_4:c2667-1399	PROKKA_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_4:c3285-2677	PROKKA_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_4:3416-3736	PROKKA_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative siderophore transport system ATP-binding protein YusV	contig_4:c4772-3963	PROKKA_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative siderophore transport system permease protein YfhA	contig_4:c5800-4769	PROKKA_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative siderophore transport system permease protein YfiZ precursor	contig_4:c6771-5797	PROKKA_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Iron import ATP-binding/permease protein IrtA	contig_4:c7691-6768	PROKKA_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative siderophore-binding lipoprotein YfiY precursor	contig_4:c8662-7688	PROKKA_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_4:c9475-9005	PROKKA_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Hemolysin C	contig_4:c11369-10056	PROKKA_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Magnesium and cobalt efflux protein CorC	contig_4:c12667-11366	PROKKA_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_4:c13890-13111	PROKKA_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_5:51-224	PROKKA_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Vitamin B12-binding protein precursor	contig_5:678-1541	PROKKA_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Cob(I)yrinic acid a,c-diamide adenosyltransferase	contig_5:1550-2161	PROKKA_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Cobyrinic acid A,C-diamide synthase	contig_5:2151-3476	PROKKA_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Cobalamin biosynthesis protein CbiB	contig_5:3473-4369	PROKKA_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Histidinol-phosphate aminotransferase 2	contig_5:4362-5369	PROKKA_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Cobyric acid synthase	contig_5:5362-6801	PROKKA_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_5:c7470-7090	PROKKA_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Hemin-binding periplasmic protein HmuT precursor	contig_5:8093-8968	PROKKA_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Hemin transport system permease protein HmuU	contig_5:9031-10029	PROKKA_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Hemin import ATP-binding protein HmuV	contig_5:10026-10811	PROKKA_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	NADPH-dependent ferric-chelate reductase	contig_5:10819-11559	PROKKA_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_6:c931-332	PROKKA_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Glycerophosphoryl diester phosphodiesterase precursor	contig_6:c3472-1112	PROKKA_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_6:c3743-3480	PROKKA_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Ribonucleoside-diphosphate reductase subunit beta	contig_6:c4731-3736	PROKKA_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Ribonucleoside-diphosphate reductase subunit alpha	contig_6:c6875-4788	PROKKA_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Protein NrdI	contig_6:c7285-6860	PROKKA_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_6:c7383-7288	PROKKA_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	putative acyl-CoA thioester hydrolase	contig_6:c7924-7442	PROKKA_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Tyrosine recombinase XerD	contig_6:c9311-8358	PROKKA_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_7:c1014-619	PROKKA_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_7:1057-1293	PROKKA_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Chromosome-partitioning protein Spo0J	contig_7:1290-2165	PROKKA_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_7:c4512-3019	PROKKA_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_7:c5977-4505	PROKKA_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	Amino-acid carrier protein AlsT	contig_8:c1648-98	PROKKA_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_9:365-709	PROKKA_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_9:670-1371	PROKKA_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_10:c1131-418	PROKKA_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/test:CDS	hypothetical protein	contig_11:c672-190	PROKKA_00139
+
+DiscRep_ALL:SHORT_CONTIG::12 contigs are shorter than 200 nt.
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::1 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+prokka_output/test:CDS	putative ABC transporter ATP-binding protein/MT1014	contig_2:33124-33771	PROKKA_00076
+
+DiscRep_ALL:NO_ANNOTATION::18 bioseqs have no features
+prokka_output/test:contig_12 (length 685)
+prokka_output/test:contig_13 (length 608)
+prokka_output/test:contig_14 (length 572)
+prokka_output/test:contig_15 (length 377)
+prokka_output/test:contig_16 (length 260)
+prokka_output/test:contig_17 (length 246)
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::29 comment descriptors were found (all same)
+prokka_output/test:contig_1:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_2:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_3:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_4:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_5:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_6:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_7:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_8:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_9:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_10:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_11:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_12:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_13:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_14:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_15:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_16:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_17:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_18:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_19:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_20:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_21:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_22:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_23:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_24:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_25:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_26:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_27:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_28:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+prokka_output/test:contig_29:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::3 protein sequences are shorter than 50 aa.
+prokka_output/test:contig_1_29 (length 42)
+prokka_output/test:contig_1_30 (length 44)
+prokka_output/test:contig_6_7 (length 31)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::29 bioseqs are missing GenomeAssembly structured comments
+prokka_output/test:contig_1 (length 54854)
+prokka_output/test:contig_2 (length 41173)
+prokka_output/test:contig_3 (length 20641)
+prokka_output/test:contig_4 (length 14452)
+prokka_output/test:contig_5 (length 12264)
+prokka_output/test:contig_6 (length 9576)
+prokka_output/test:contig_7 (length 6345)
+prokka_output/test:contig_8 (length 1767)
+prokka_output/test:contig_9 (length 1457)
+prokka_output/test:contig_10 (length 1380)
+prokka_output/test:contig_11 (length 718)
+prokka_output/test:contig_12 (length 685)
+prokka_output/test:contig_13 (length 608)
+prokka_output/test:contig_14 (length 572)
+prokka_output/test:contig_15 (length 377)
+prokka_output/test:contig_16 (length 260)
+prokka_output/test:contig_17 (length 246)
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:SHORT_SEQUENCES_200::12 sequences are shorter than 200 bp.
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::29 molecule types are not set as mRNA.
+prokka_output/test:contig_1 (length 54854)
+prokka_output/test:contig_2 (length 41173)
+prokka_output/test:contig_3 (length 20641)
+prokka_output/test:contig_4 (length 14452)
+prokka_output/test:contig_5 (length 12264)
+prokka_output/test:contig_6 (length 9576)
+prokka_output/test:contig_7 (length 6345)
+prokka_output/test:contig_8 (length 1767)
+prokka_output/test:contig_9 (length 1457)
+prokka_output/test:contig_10 (length 1380)
+prokka_output/test:contig_11 (length 718)
+prokka_output/test:contig_12 (length 685)
+prokka_output/test:contig_13 (length 608)
+prokka_output/test:contig_14 (length 572)
+prokka_output/test:contig_15 (length 377)
+prokka_output/test:contig_16 (length 260)
+prokka_output/test:contig_17 (length 246)
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::29 technique are not set as TSA
+prokka_output/test:contig_1 (length 54854)
+prokka_output/test:contig_2 (length 41173)
+prokka_output/test:contig_3 (length 20641)
+prokka_output/test:contig_4 (length 14452)
+prokka_output/test:contig_5 (length 12264)
+prokka_output/test:contig_6 (length 9576)
+prokka_output/test:contig_7 (length 6345)
+prokka_output/test:contig_8 (length 1767)
+prokka_output/test:contig_9 (length 1457)
+prokka_output/test:contig_10 (length 1380)
+prokka_output/test:contig_11 (length 718)
+prokka_output/test:contig_12 (length 685)
+prokka_output/test:contig_13 (length 608)
+prokka_output/test:contig_14 (length 572)
+prokka_output/test:contig_15 (length 377)
+prokka_output/test:contig_16 (length 260)
+prokka_output/test:contig_17 (length 246)
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::29 sequences do not include structured comments.
+prokka_output/test:contig_1 (length 54854)
+prokka_output/test:contig_2 (length 41173)
+prokka_output/test:contig_3 (length 20641)
+prokka_output/test:contig_4 (length 14452)
+prokka_output/test:contig_5 (length 12264)
+prokka_output/test:contig_6 (length 9576)
+prokka_output/test:contig_7 (length 6345)
+prokka_output/test:contig_8 (length 1767)
+prokka_output/test:contig_9 (length 1457)
+prokka_output/test:contig_10 (length 1380)
+prokka_output/test:contig_11 (length 718)
+prokka_output/test:contig_12 (length 685)
+prokka_output/test:contig_13 (length 608)
+prokka_output/test:contig_14 (length 572)
+prokka_output/test:contig_15 (length 377)
+prokka_output/test:contig_16 (length 260)
+prokka_output/test:contig_17 (length 246)
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:MISSING_PROJECT::168 sequences do not include project.
+prokka_output/test:contig_1 (length 54854)
+prokka_output/test:contig_1_1 (length 410)
+prokka_output/test:contig_1_2 (length 158)
+prokka_output/test:contig_1_3 (length 140)
+prokka_output/test:contig_1_4 (length 243)
+prokka_output/test:contig_1_5 (length 729)
+prokka_output/test:contig_1_6 (length 108)
+prokka_output/test:contig_1_7 (length 1128)
+prokka_output/test:contig_1_8 (length 438)
+prokka_output/test:contig_1_9 (length 54)
+prokka_output/test:contig_1_10 (length 1067)
+prokka_output/test:contig_1_11 (length 385)
+prokka_output/test:contig_1_12 (length 744)
+prokka_output/test:contig_1_13 (length 287)
+prokka_output/test:contig_1_14 (length 83)
+prokka_output/test:contig_1_15 (length 113)
+prokka_output/test:contig_1_16 (length 598)
+prokka_output/test:contig_1_17 (length 315)
+prokka_output/test:contig_1_18 (length 729)
+prokka_output/test:contig_1_19 (length 114)
+prokka_output/test:contig_1_20 (length 272)
+prokka_output/test:contig_1_21 (length 252)
+prokka_output/test:contig_1_22 (length 65)
+prokka_output/test:contig_1_23 (length 238)
+prokka_output/test:contig_1_24 (length 395)
+prokka_output/test:contig_1_25 (length 250)
+prokka_output/test:contig_1_26 (length 209)
+prokka_output/test:contig_1_27 (length 503)
+prokka_output/test:contig_1_28 (length 675)
+prokka_output/test:contig_1_29 (length 42)
+prokka_output/test:contig_1_30 (length 44)
+prokka_output/test:contig_1_31 (length 568)
+prokka_output/test:contig_1_32 (length 217)
+prokka_output/test:contig_1_33 (length 365)
+prokka_output/test:contig_1_34 (length 516)
+prokka_output/test:contig_1_35 (length 451)
+prokka_output/test:contig_1_36 (length 219)
+prokka_output/test:contig_1_37 (length 241)
+prokka_output/test:contig_1_38 (length 364)
+prokka_output/test:contig_1_39 (length 342)
+prokka_output/test:contig_1_40 (length 130)
+prokka_output/test:contig_1_41 (length 112)
+prokka_output/test:contig_1_42 (length 262)
+prokka_output/test:contig_1_43 (length 413)
+prokka_output/test:contig_1_44 (length 285)
+prokka_output/test:contig_1_45 (length 210)
+prokka_output/test:contig_1_46 (length 289)
+prokka_output/test:contig_1_47 (length 90)
+prokka_output/test:contig_2 (length 41173)
+prokka_output/test:contig_2_1 (length 230)
+prokka_output/test:contig_2_2 (length 369)
+prokka_output/test:contig_2_3 (length 285)
+prokka_output/test:contig_2_4 (length 141)
+prokka_output/test:contig_2_5 (length 137)
+prokka_output/test:contig_2_6 (length 351)
+prokka_output/test:contig_2_7 (length 577)
+prokka_output/test:contig_2_8 (length 416)
+prokka_output/test:contig_2_9 (length 303)
+prokka_output/test:contig_2_10 (length 321)
+prokka_output/test:contig_2_11 (length 88)
+prokka_output/test:contig_2_12 (length 83)
+prokka_output/test:contig_2_13 (length 833)
+prokka_output/test:contig_2_14 (length 219)
+prokka_output/test:contig_2_15 (length 318)
+prokka_output/test:contig_2_16 (length 139)
+prokka_output/test:contig_2_17 (length 111)
+prokka_output/test:contig_2_18 (length 691)
+prokka_output/test:contig_2_19 (length 101)
+prokka_output/test:contig_2_20 (length 789)
+prokka_output/test:contig_2_21 (length 145)
+prokka_output/test:contig_2_22 (length 936)
+prokka_output/test:contig_2_23 (length 593)
+prokka_output/test:contig_2_24 (length 418)
+prokka_output/test:contig_2_25 (length 71)
+prokka_output/test:contig_2_26 (length 516)
+prokka_output/test:contig_2_27 (length 588)
+prokka_output/test:contig_2_28 (length 152)
+prokka_output/test:contig_2_29 (length 215)
+prokka_output/test:contig_2_30 (length 402)
+prokka_output/test:contig_2_31 (length 666)
+prokka_output/test:contig_2_32 (length 133)
+prokka_output/test:contig_2_33 (length 198)
+prokka_output/test:contig_2_34 (length 332)
+prokka_output/test:contig_2_35 (length 176)
+prokka_output/test:contig_3 (length 20641)
+prokka_output/test:contig_3_1 (length 1706)
+prokka_output/test:contig_3_2 (length 941)
+prokka_output/test:contig_3_3 (length 609)
+prokka_output/test:contig_3_4 (length 530)
+prokka_output/test:contig_3_5 (length 161)
+prokka_output/test:contig_3_6 (length 172)
+prokka_output/test:contig_3_7 (length 161)
+prokka_output/test:contig_3_8 (length 88)
+prokka_output/test:contig_3_9 (length 185)
+prokka_output/test:contig_3_10 (length 969)
+prokka_output/test:contig_3_11 (length 442)
+prokka_output/test:contig_3_12 (length 92)
+prokka_output/test:contig_3_13 (length 366)
+prokka_output/test:contig_4 (length 14452)
+prokka_output/test:contig_4_1 (length 317)
+prokka_output/test:contig_4_2 (length 422)
+prokka_output/test:contig_4_3 (length 202)
+prokka_output/test:contig_4_4 (length 106)
+prokka_output/test:contig_4_5 (length 269)
+prokka_output/test:contig_4_6 (length 343)
+prokka_output/test:contig_4_7 (length 324)
+prokka_output/test:contig_4_8 (length 307)
+prokka_output/test:contig_4_9 (length 324)
+prokka_output/test:contig_4_10 (length 156)
+prokka_output/test:contig_4_11 (length 437)
+prokka_output/test:contig_4_12 (length 433)
+prokka_output/test:contig_4_13 (length 259)
+prokka_output/test:contig_5 (length 12264)
+prokka_output/test:contig_5_1 (length 57)
+prokka_output/test:contig_5_2 (length 287)
+prokka_output/test:contig_5_3 (length 203)
+prokka_output/test:contig_5_4 (length 441)
+prokka_output/test:contig_5_5 (length 298)
+prokka_output/test:contig_5_6 (length 335)
+prokka_output/test:contig_5_7 (length 479)
+prokka_output/test:contig_5_8 (length 126)
+prokka_output/test:contig_5_9 (length 291)
+prokka_output/test:contig_5_10 (length 332)
+prokka_output/test:contig_5_11 (length 261)
+prokka_output/test:contig_5_12 (length 246)
+prokka_output/test:contig_6 (length 9576)
+prokka_output/test:contig_6_1 (length 199)
+prokka_output/test:contig_6_2 (length 786)
+prokka_output/test:contig_6_3 (length 87)
+prokka_output/test:contig_6_4 (length 331)
+prokka_output/test:contig_6_5 (length 695)
+prokka_output/test:contig_6_6 (length 141)
+prokka_output/test:contig_6_7 (length 31)
+prokka_output/test:contig_6_8 (length 160)
+prokka_output/test:contig_6_9 (length 317)
+prokka_output/test:contig_7 (length 6345)
+prokka_output/test:contig_7_1 (length 131)
+prokka_output/test:contig_7_2 (length 78)
+prokka_output/test:contig_7_3 (length 291)
+prokka_output/test:contig_7_4 (length 497)
+prokka_output/test:contig_7_5 (length 490)
+prokka_output/test:contig_8 (length 1767)
+prokka_output/test:contig_8_1 (length 516)
+prokka_output/test:contig_9 (length 1457)
+prokka_output/test:contig_9_1 (length 114)
+prokka_output/test:contig_9_2 (length 233)
+prokka_output/test:contig_10 (length 1380)
+prokka_output/test:contig_10_1 (length 237)
+prokka_output/test:contig_11 (length 718)
+prokka_output/test:contig_11_1 (length 160)
+prokka_output/test:contig_12 (length 685)
+prokka_output/test:contig_13 (length 608)
+prokka_output/test:contig_14 (length 572)
+prokka_output/test:contig_15 (length 377)
+prokka_output/test:contig_16 (length 260)
+prokka_output/test:contig_17 (length 246)
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::29 Molinfos are missing field technique
+prokka_output/test:contig_1 (length 54854)
+prokka_output/test:contig_2 (length 41173)
+prokka_output/test:contig_3 (length 20641)
+prokka_output/test:contig_4 (length 14452)
+prokka_output/test:contig_5 (length 12264)
+prokka_output/test:contig_6 (length 9576)
+prokka_output/test:contig_7 (length 6345)
+prokka_output/test:contig_8 (length 1767)
+prokka_output/test:contig_9 (length 1457)
+prokka_output/test:contig_10 (length 1380)
+prokka_output/test:contig_11 (length 718)
+prokka_output/test:contig_12 (length 685)
+prokka_output/test:contig_13 (length 608)
+prokka_output/test:contig_14 (length 572)
+prokka_output/test:contig_15 (length 377)
+prokka_output/test:contig_16 (length 260)
+prokka_output/test:contig_17 (length 246)
+prokka_output/test:contig_18 (length 195)
+prokka_output/test:contig_19 (length 164)
+prokka_output/test:contig_20 (length 155)
+prokka_output/test:contig_21 (length 155)
+prokka_output/test:contig_22 (length 155)
+prokka_output/test:contig_23 (length 155)
+prokka_output/test:contig_24 (length 154)
+prokka_output/test:contig_25 (length 132)
+prokka_output/test:contig_26 (length 124)
+prokka_output/test:contig_27 (length 108)
+prokka_output/test:contig_28 (length 105)
+prokka_output/test:contig_29 (length 96)
+

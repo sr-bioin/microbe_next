@@ -1,0 +1,110 @@
+[12:49:58] Command: --outdir prokka_output --prefix test --cpus 1 --force test.fasta
+[12:49:58] Looking for 'aragorn' - found /home/shree/anaconda3/envs/prokka/bin/aragorn
+[12:49:58] Determined aragorn version is 1.2
+[12:49:58] Looking for 'barrnap' - found /home/shree/anaconda3/envs/prokka/bin/barrnap
+[12:49:58] Determined barrnap version is 0.9
+[12:49:58] Looking for 'blastp' - found /home/shree/anaconda3/envs/prokka/bin/blastp
+[12:49:58] Determined blastp version is 2.5
+[12:49:58] Looking for 'cmpress' - found /home/shree/anaconda3/envs/prokka/bin/cmpress
+[12:49:58] Determined cmpress version is 1.1
+[12:49:58] Looking for 'cmscan' - found /home/shree/anaconda3/envs/prokka/bin/cmscan
+[12:49:58] Determined cmscan version is 1.1
+[12:49:58] Looking for 'egrep' - found /usr/bin/egrep
+[12:49:58] Looking for 'find' - found /usr/bin/find
+[12:49:58] Looking for 'grep' - found /usr/bin/grep
+[12:49:58] Looking for 'hmmpress' - found /home/shree/anaconda3/envs/prokka/bin/hmmpress
+[12:49:58] Determined hmmpress version is 3.3
+[12:49:58] Looking for 'hmmscan' - found /home/shree/anaconda3/envs/prokka/bin/hmmscan
+[12:49:58] Determined hmmscan version is 3.3
+[12:49:58] Looking for 'less' - found /usr/bin/less
+[12:49:58] Looking for 'makeblastdb' - found /home/shree/anaconda3/envs/prokka/bin/makeblastdb
+[12:49:58] Determined makeblastdb version is 2.5
+[12:49:58] Looking for 'minced' - found /home/shree/anaconda3/envs/prokka/bin/minced
+[12:49:59] Determined minced version is 4.2
+[12:49:59] Looking for 'parallel' - found /home/shree/anaconda3/envs/prokka/bin/parallel
+[12:49:59] Determined parallel version is 20160622
+[12:49:59] Looking for 'prodigal' - found /home/shree/anaconda3/envs/prokka/bin/prodigal
+[12:49:59] Determined prodigal version is 2.6
+[12:49:59] Looking for 'prokka-genbank_to_fasta_db' - found /home/shree/anaconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[12:49:59] Looking for 'sed' - found /usr/bin/sed
+[12:49:59] Looking for 'tbl2asn' - found /home/shree/anaconda3/envs/prokka/bin/tbl2asn
+[12:49:59] Determined tbl2asn version is 25.8
+[12:49:59] Using genetic code table 11.
+[12:49:59] Loading and checking input file: test.fasta
+[12:49:59] Wrote 29 contigs
+[12:49:59] Predicting tRNAs and tmRNAs
+[12:49:59] Running: aragorn -gc11  -w prokka_output\/test\.fna
+[12:50:00] Found 0 tRNAs
+[12:50:00] Predicting Ribosomal RNAs
+[12:50:00] Running Barrnap with 1 threads
+[12:50:00] Found 0 rRNAs
+[12:50:00] Skipping ncRNA search, enable with --rfam if desired.
+[12:50:00] Total of 0 tRNA + rRNA features
+[12:50:00] Searching for CRISPR repeats
+[12:50:01] Found 0 CRISPRs
+[12:50:01] Predicting coding sequences
+[12:50:01] Contigs total 169073 bp, so using single mode
+[12:50:01] Running: prodigal -i prokka_output\/test\.fna -c -m -g 11 -p single -f sco -q
+[12:50:01] Found 139 CDS
+[12:50:01] Connecting features back to sequences
+[12:50:01] Not using genus-specific database. Try --usegenus to enable it.
+[12:50:01] Annotating CDS, please be patient.
+[12:50:01] Will use 1 CPUs for similarity searching.
+[12:50:02] There are still 139 unannotated CDS left (started with 139)
+[12:50:02] Will use blast to search against /home/shree/anaconda3/envs/prokka/bin/../db/kingdom/Bacteria/sprot with 1 CPUs
+[12:50:02] Running: cat prokka_output\/sprot\.faa | parallel --gnu --plain -j 1 --block 23901 --recstart '>' --pipe blastp -query - -db /home/shree/anaconda3/envs/prokka/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_output\/sprot\.blast 2> /dev/null
+[12:50:15] Modify product: Probable subtilase-type serine protease DR_A0283 precursor => putative subtilase-type serine protease precursor
+[12:50:15] Modify product: Probable diguanylate cyclase YdaM => putative diguanylate cyclase YdaM
+[12:50:15] Modify product: Probable diguanylate cyclase YdaM => putative diguanylate cyclase YdaM
+[12:50:15] Modify product: Uncharacterized ABC transporter ATP-binding protein Rv0986/MT1014 => putative ABC transporter ATP-binding protein/MT1014
+[12:50:15] Modify product: Probable siderophore transport system ATP-binding protein YusV => putative siderophore transport system ATP-binding protein YusV
+[12:50:15] Modify product: Probable siderophore transport system permease protein YfhA => putative siderophore transport system permease protein YfhA
+[12:50:15] Modify product: Probable siderophore transport system permease protein YfiZ precursor => putative siderophore transport system permease protein YfiZ precursor
+[12:50:15] Modify product: Probable siderophore-binding lipoprotein YfiY precursor => putative siderophore-binding lipoprotein YfiY precursor
+[12:50:15] Modify product: Uncharacterized acyl-CoA thioester hydrolase HI_0827 => putative acyl-CoA thioester hydrolase
+[12:50:15] Cleaned 9 /product names
+[12:50:15] Deleting unwanted file: prokka_output/sprot.faa
+[12:50:15] Deleting unwanted file: prokka_output/sprot.blast
+[12:50:15] There are still 69 unannotated CDS left (started with 139)
+[12:50:15] Will use hmmer3 to search against /home/shree/anaconda3/envs/prokka/bin/../db/hmm/HAMAP.hmm with 1 CPUs
+[12:50:15] Running: cat prokka_output\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 1 --block 10780 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/shree/anaconda3/envs/prokka/bin/../db/hmm/HAMAP.hmm /dev/stdin > prokka_output\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[12:50:19] Deleting unwanted file: prokka_output/HAMAP.hmm.faa
+[12:50:19] Deleting unwanted file: prokka_output/HAMAP.hmm.hmmer3
+[12:50:19] Labelling remaining 65 proteins as 'hypothetical protein'
+[12:50:19] Possible /pseudo 'Serine/threonine-protein kinase RsbT' at contig_2 position 4206
+[12:50:19] Found 66 unique /gene codes.
+[12:50:19] Fixed 2 duplicate /gene - spo0C_1 spo0C_2
+[12:50:19] Fixed 2 duplicate /gene - rsbT_1 rsbT_2
+[12:50:19] Fixed 2 duplicate /gene - ydaM_1 ydaM_2
+[12:50:19] Fixed 3 colliding /gene names.
+[12:50:19] Adding /locus_tag identifiers
+[12:50:19] Assigned 139 locus_tags to CDS and RNA features.
+[12:50:19] Writing outputs to prokka_output/
+[12:50:19] Generating annotation statistics file
+[12:50:19] Generating Genbank and Sequin files
+[12:50:19] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.11 from http://www.vicbioinformatics.com' -Z prokka_output\/test\.err -i prokka_output\/test\.fsa 2> /dev/null
+[12:50:21] Deleting unwanted file: prokka_output/errorsummary.val
+[12:50:21] Deleting unwanted file: prokka_output/test.dr
+[12:50:21] Deleting unwanted file: prokka_output/test.fixedproducts
+[12:50:22] Deleting unwanted file: prokka_output/test.ecn
+[12:50:22] Deleting unwanted file: prokka_output/test.val
+[12:50:22] Repairing broken .GBK output that tbl2asn produces...
+[12:50:22] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokka_output\/test\.gbf > prokka_output\/test\.gbk
+[12:50:22] Deleting unwanted file: prokka_output/test.gbf
+[12:50:22] Output files:
+[12:50:22] prokka_output/test.err
+[12:50:22] prokka_output/test.faa
+[12:50:22] prokka_output/test.ffn
+[12:50:22] prokka_output/test.fna
+[12:50:22] prokka_output/test.fsa
+[12:50:22] prokka_output/test.gbk
+[12:50:22] prokka_output/test.gff
+[12:50:22] prokka_output/test.log
+[12:50:22] prokka_output/test.sqn
+[12:50:22] prokka_output/test.tbl
+[12:50:22] prokka_output/test.txt
+[12:50:22] Walltime used: 0.40 minutes
+[12:50:22] If you use this result please cite the Prokka paper:
+[12:50:22] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:50:22] Type 'prokka --citation' for more details.
+[12:50:22] Thank you, come again.
